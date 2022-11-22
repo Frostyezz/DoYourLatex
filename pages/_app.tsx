@@ -1,9 +1,11 @@
 import "../styles/globals.css";
+import "../styles/fonts.css";
 import type { AppProps } from "next/app";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
 import { Provider } from "react-redux";
 import { store } from "../store/store";
+import Navbar from "../components/Navbar";
 
 let persistor = persistStore(store);
 
@@ -11,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </PersistGate>
     </Provider>
   );

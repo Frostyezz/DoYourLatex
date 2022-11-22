@@ -9,7 +9,7 @@ const LiveEditorWrapper = () => {
 
   const [tex, setTex] = useState(content);
   return (
-    <div className="flex flex-col w-1/3 ml-5 gap-5" style={{ height: "80vh" }}>
+    <div className="flex flex-col w-2/4 ml-5 gap-5" style={{ height: "95vh" }}>
       <LiveEditor
         tex={tex}
         onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>

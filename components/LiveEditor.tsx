@@ -15,7 +15,7 @@ const LiveEditor: React.FC<LiveEditorProps> = ({ onChange, tex }) => {
       <textarea
         value={tex}
         placeholder="Type Latex here"
-        className="textarea w-full h-full"
+        className="textarea w-full h-full resize-none"
         onBlur={(e) => dispatch(SET_CONTENT(e.target.value))}
         onChange={onChange}
       />

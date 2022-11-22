@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "LMMono10";
+  src: url("../utils/fonts/LMMono10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMono10-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoCaps10";
+  src: url("../utils/fonts/LMMonoCaps10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoCaps10-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMono8";
+  src: url("../utils/fonts/LMMono8-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMono8-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLt10";
+  src: url("../utils/fonts/LMMonoLt10-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLt10-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMono12";
+  src: url("../utils/fonts/LMMono12-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMono12-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoCaps10";
+  src: url("../utils/fonts/LMMonoCaps10-Oblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoCaps10-Oblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMono10";
+  src: url("../utils/fonts/LMMono10-Italic.woff2") format("woff2"),
+    url("../utils/fonts/LMMono10-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMono9";
+  src: url("../utils/fonts/LMMono9-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMono9-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman8";
+  src: url("../utils/fonts/LMRoman8-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman8-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman5";
+  src: url("../utils/fonts/LMRoman5-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman5-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman8";
+  src: url("../utils/fonts/LMRoman8-Italic.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman8-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLtCond10";
+  src: url("../utils/fonts/LMMonoLtCond10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLtCond10-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoPropLt10";
+  src: url("../utils/fonts/LMMonoPropLt10-Oblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoPropLt10-Oblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoSlant10";
+  src: url("../utils/fonts/LMMonoSlant10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoSlant10-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLt10";
+  src: url("../utils/fonts/LMMonoLt10-Oblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLt10-Oblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLtCond10";
+  src: url("../utils/fonts/LMMonoLtCond10-Oblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLtCond10-Oblique.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoPropLt10";
+  src: url("../utils/fonts/LMMonoPropLt10-BoldOblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoPropLt10-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman7";
+  src: url("../utils/fonts/LMRoman7-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman7-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoPropLt10";
+  src: url("../utils/fonts/LMMonoPropLt10-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoPropLt10-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLt10";
+  src: url("../utils/fonts/LMMonoLt10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLt10-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoProp10";
+  src: url("../utils/fonts/LMMonoProp10-Oblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoProp10-Oblique.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman6";
+  src: url("../utils/fonts/LMRoman6-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman6-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoPropLt10";
+  src: url("../utils/fonts/LMMonoPropLt10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoPropLt10-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoProp10";
+  src: url("../utils/fonts/LMMonoProp10-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoProp10-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman5";
+  src: url("../utils/fonts/LMRoman5-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman5-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman7";
+  src: url("../utils/fonts/LMRoman7-Italic.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman7-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman8";
+  src: url("../utils/fonts/LMRoman8-Bold.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman8-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman7";
+  src: url("../utils/fonts/LMRoman7-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman7-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMRoman6";
+  src: url("../utils/fonts/LMRoman6-Regular.woff2") format("woff2"),
+    url("../utils/fonts/LMRoman6-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LMMonoLt10";
+  src: url("../utils/fonts/LMMonoLt10-BoldOblique.woff2") format("woff2"),
+    url("../utils/fonts/LMMonoLt10-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+.latex {
+  font-family: "LMRoman8", sans-serif !important;
+  color: black !important;
+}

@@ -9,9 +9,11 @@ const LivePreview: React.FC<LivePreviewProps> = ({ tex }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div className="rounded-xl shadow-round bg-white h-1/2 p-3">
+    <div className="rounded-xl shadow-round bg-white h-1/2 p-3 latex">
       <MathJaxContext onLoad={() => setIsLoaded(true)}>
-        <MathJax dynamic>{isLoaded && tex}</MathJax>
+        <MathJax className="h-full overflow-y-scroll" dynamic>
+          {isLoaded && tex}
+        </MathJax>
       </MathJaxContext>
     </div>
   );
