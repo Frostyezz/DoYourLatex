@@ -1,12 +1,13 @@
 export enum ITEM_TYPES {
-  EXERCISE,
-  PROBLEM,
-  THEOREM,
-  REMARK,
+  EXERCISE = "Exercitiu",
+  PROBLEM = "Problema",
+  THEOREM = "Teorema",
+  REMARK = "Remarca",
 }
 
 export interface Item {
   tex: string;
-  type: number;
-  id: string;
+  type: ITEM_TYPES;
+  id: number;
+  isActive: boolean;
 }

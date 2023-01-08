@@ -16,6 +16,7 @@ const LiveEditor: React.FC<LiveEditorProps> = ({ onChange, tex, setTex }) => {
       <div className="flex flex-row justify-between items-center mb-3 pb-3 border-b-2">
         <h1 className="font-semibold text-xl">Editor Live</h1>
         <button
+          disabled={!tex}
           onClick={() => {
             setTex("");
             dispatch(SET_CONTENT(""));
@@ -27,7 +28,7 @@ const LiveEditor: React.FC<LiveEditorProps> = ({ onChange, tex, setTex }) => {
       </div>
       <textarea
         value={tex}
-        placeholder="Type Latex here"
+        placeholder="Scrie Latex aici"
         className="textarea w-full h-5/6 resize-none"
         onBlur={(e) => dispatch(SET_CONTENT(e.target.value))}
         onChange={onChange}
